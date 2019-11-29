@@ -1,0 +1,9 @@
+com/testRunners/Firefox_TestRunner.class
+com/testRunners/Chrome_TestRunner.class
+com/steps_definition/Demo_Web_Steps.class
+com/core/Base.class
+com/core/Utils.class
+com/page/methods/Demo_Web_Methods.class
+com/steps_definition/Hooks.class
+com/page/elements/Demo_Web_Elements.class
+com/generateReports/GenerateReports.class

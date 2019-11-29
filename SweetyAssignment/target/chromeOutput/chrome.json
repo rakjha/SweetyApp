@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 823979790,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Home Page",
+            "match": {
+              "location": "Demo_Web_Steps.user_is_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7531608955,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "TC004 Validate an authenticated user can check Blood Glucose Record maximum four times in a day",
+        "description": "",
+        "id": "demo-assignment;tc004-validate-an-authenticated-user-can-check-blood-glucose-record-maximum-four-times-in-a-day",
+        "after": [
+          {
+            "result": {
+              "duration": 82098792,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2572668460,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User enters \"userEmail\" and \"password\" to login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "userEmail",
+                  "offset": 13
+                },
+                {
+                  "val": "password",
+                  "offset": 29
+                }
+              ],
+              "location": "Demo_Web_Steps.user_enters_and_to_login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2270059249,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User clicks on the Login Button",
+            "match": {
+              "location": "Demo_Web_Steps.user_clicks_on_the_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37501959036,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User enters the Blood Glucose Level more than four times in a day",
+            "match": {
+              "location": "Demo_Web_Steps.user_enters_the_Blood_Glucose_Level_more_than_four_times_in_a_day(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "6"
+                ],
+                "line": 45
+              },
+              {
+                "cells": [
+                  "7"
+                ],
+                "line": 46
+              },
+              {
+                "cells": [
+                  "3"
+                ],
+                "line": 47
+              },
+              {
+                "cells": [
+                  "5"
+                ],
+                "line": 48
+              },
+              {
+                "cells": [
+                  "9"
+                ],
+                "line": 49
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "Demo Assignment",
+    "description": "",
+    "id": "demo-assignment",
+    "keyword": "Feature",
+    "uri": "Demo.feature"
+  }
+]
